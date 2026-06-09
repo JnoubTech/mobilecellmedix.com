@@ -996,8 +996,14 @@ a {
     padding: 16px 28px;
   }
 
+  .header-logo img {
+    height: 24px;
+    max-width: 140px;
+    object-fit: contain;
+  }
+
   .header-nav {
-    gap: 16px;
+    gap: 12px;
   }
 
   .header-link {
@@ -1084,8 +1090,7 @@ a {
   }
 
   .reviews-arrow {
-    width: 36px;
-    height: 36px;
+    display: none;
   }
 
   .reviews-stars-summary {
