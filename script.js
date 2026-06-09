@@ -265,14 +265,14 @@
     const question = item.querySelector('.faq-question');
     question.addEventListener('click', () => {
       const isOpen = item.classList.contains('active');
-      
+
       // Close all others
       faqItems.forEach(otherItem => {
         otherItem.classList.remove('active');
         otherItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
         otherItem.querySelector('.faq-answer').style.maxHeight = null;
       });
-      
+
       // Toggle current
       if (!isOpen) {
         item.classList.add('active');
@@ -282,4 +282,34 @@
       }
     });
   });
+  // ---------- Promo Toast Logic ----------
+  const promoToast = document.getElementById('promo-toast');
+  const promoCloseBtn = document.getElementById('promo-close-btn');
+
+  if (promoToast && promoCloseBtn) {
+    // Check if the user previously dismissed it
+    const isDismissed = localStorage.getItem('promo-dismissed');
+
+    if (!isDismissed) {
+      // Slides up after a non-annoying 3-second delay
+      setTimeout(() => {
+        promoToast.style.display = 'block';
+        // Force reflow to smoothly trigger the CSS animation transition
+        promoToast.offsetHeight;
+        promoToast.classList.add('show');
+      }, 3000);
+    }
+
+    // Handle close button click
+    promoCloseBtn.addEventListener('click', () => {
+      promoToast.classList.remove('show');
+      // Store flag in local storage so they aren't bothered again
+      localStorage.setItem('promo-dismissed', 'true');
+
+      // Cleanly pull display none out after slide down ends
+      setTimeout(() => {
+        promoToast.style.display = 'none';
+      }, 500);
+    });
+  }
 })();
