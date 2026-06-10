@@ -94,16 +94,22 @@ a {
   color: #ffffff;
 }
 
+.header-contact-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .header-cta {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 12px;
+  gap: 4px;
+  font-size: 11px;
   font-weight: 500;
   color: #ffffff;
   background: #cc2030;
   border-radius: 980px;
-  padding: 5px 14px;
+  padding: 5px 12px;
   transition: background 0.25s ease;
   white-space: nowrap;
 }
@@ -174,11 +180,13 @@ a {
 }
 
 .hero h1 .gradient-text {
-  background: linear-gradient(135deg,
-      #1e2b59 0%,
-      #1e2b59 40%,
-      #dc2327 85%,
-      #dc2327 100%);
+  background: linear-gradient(
+    135deg,
+    #1e2b59 0%,
+    #1e2b59 40%,
+    #dc2327 85%,
+    #dc2327 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -200,6 +208,20 @@ a {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.contact-buttons-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-buttons-group .btn-primary {
+  padding: 14px 24px;
+  font-size: 15px;
+  gap: 6px;
 }
 
 .btn-primary {
@@ -324,10 +346,12 @@ a {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg,
-      transparent,
-      rgba(255, 255, 255, 0.12),
-      transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.12),
+    transparent
+  );
   opacity: 0;
   transition: opacity 0.35s ease;
 }
@@ -437,7 +461,7 @@ a {
   direction: rtl;
 }
 
-.showcase-block.reverse .showcase-inner>* {
+.showcase-block.reverse .showcase-inner > * {
   direction: ltr;
 }
 
@@ -1160,7 +1184,6 @@ a {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   .reveal,
   .reveal-scale {
     opacity: 1;
