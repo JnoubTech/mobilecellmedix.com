@@ -3,7 +3,22 @@
    Dark Cupertino Cinematic
    ============================================ */
 
+/* ---------- Top Banner ---------- */
+.top-banner {
+  background-color: #1c1c1e;
+  color: #a1a1a6;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  z-index: 1001;
+}
+
 /* ---------- Reset & Base ---------- */
+
 *,
 *::before,
 *::after {
@@ -20,7 +35,10 @@ html {
 
 body {
   font-family:
-    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", sans-serif;
+    "Montserrat",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   color: #f5f5f7;
   background-color: #000000;
   line-height: 1.5;
@@ -41,7 +59,7 @@ a {
 
 /* ---------- Sticky Header ---------- */
 .site-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -127,7 +145,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 140px 24px 100px;
+  padding: 80px 24px 100px;
   background: #000000;
   overflow: hidden;
 }
@@ -1032,7 +1050,7 @@ a {
 @media (max-width: 734px) {
   .hero {
     min-height: auto;
-    padding: 120px 20px 72px;
+    padding: 60px 20px 72px;
   }
 
   .hero h1 {
@@ -1072,6 +1090,10 @@ a {
   .owner-grid {
     grid-template-columns: 1fr;
     gap: 48px;
+  }
+
+  .owner-section {
+    padding: 72px 20px;
   }
 
   .owner-photos {
@@ -1225,6 +1247,12 @@ a {
 }
 
 /* ---------- Light Mode Overrides ---------- */
+body.light-mode .top-banner {
+  background-color: #e5e5ea;
+  color: #1d1d1f;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 body.light-mode {
   background-color: #ffffff;
   color: #1d1d1f;
