@@ -401,15 +401,7 @@
             <p class="eyebrow">Our Mission</p>
             <h2>We are here to make sure your device is working.</h2>
             <p>
-              Founded by Amine, Mobile Cell Medix was built on a simple promise:
-              to provide Mississauga with honest, reliable, and expert device
-              repairs without the hassle.
-            </p>
-            <p>
-              Whether Amine is driving out to your location for a mobile repair
-              or welcoming you into our Port Credit shop, our primary focus
-              remains the same—delivering top-tier diagnostics, efficient
-              service, and getting your tech back in your hands perfectly fixed.
+              At <strong>MobileCellMedix</strong>, our mission is to provide fast, reliable, and high-quality repairs at fair and competitive prices. We understand how essential your devices are to your daily life, whether for work, communication, or staying connected, so we strive to get them back in your hands as quickly as possible without compromising on quality. Through expert craftsmanship, honest service, and a customer-first approach, we're committed to delivering dependable solutions and an exceptional repair experience every time.
             </p>
             <div class="owner-badge">
               <svg
@@ -1925,14 +1917,12 @@
       const themeToggle = document.getElementById("theme-toggle");
       const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
 
-      // Check local storage first, then fallback to system preference
-      const currentTheme = localStorage.getItem("theme");
+      // Check local storage first, then default to light mode
+      const currentTheme = localStorage.getItem("theme") || "light";
       if (currentTheme === "light") {
         document.body.classList.add("light-mode");
       } else if (currentTheme === "dark") {
         document.body.classList.remove("light-mode");
-      } else if (prefersLight.matches) {
-        document.body.classList.add("light-mode");
       }
 
       // Toggle manual preference
