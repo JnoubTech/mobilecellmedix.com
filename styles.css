@@ -62,7 +62,7 @@ a {
 }
 
 .header-inner {
-  max-width: 1024px;
+  max-width: 1280px;
   width: 100%;
   padding: 0 22px;
   display: flex;
@@ -294,7 +294,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  max-width: 920px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -433,7 +433,7 @@ a {
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: center;
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -502,7 +502,7 @@ a {
 }
 
 .owner-section .container {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -610,7 +610,7 @@ a {
 }
 
 .map-section .container {
-  max-width: 920px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -643,7 +643,7 @@ a {
 }
 
 .footer-inner {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -684,7 +684,7 @@ a {
 }
 
 .reviews-section .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -925,7 +925,7 @@ a {
 }
 
 .faq-section .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
