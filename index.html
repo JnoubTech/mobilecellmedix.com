@@ -1,1841 +1,1408 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MobileCellMedix — iPhone, Mac & Console Repair in Mississauga</title>
-    <meta
-      name="description"
-      content="Professional repair for iPhone, MacBook, iPad, and PS5 in Mississauga. We come to you or visit our Port Credit shop."
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="photos/logo.png" type="image/png" />
-  </head>
 
-  <body>
-    <!-- ========== Header ========== -->
-    <header class="site-header" id="site-header">
-      <div class="header-inner">
-        <a href="#" class="header-logo">
-          <img src="photos/logo_name_horizontal.png" alt="Mobile Cell Medix" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MobileCellMedix — iPhone, Mac & Console Repair in Mississauga</title>
+  <meta name="description"
+    content="Professional repair for iPhone, MacBook, iPad, and PS5 in Mississauga. We come to you or visit our Port Credit shop." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="photos/logo.png" type="image/png" />
+</head>
+
+<body>
+  <!-- ========== Header ========== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="header-logo">
+        <img src="photos/logo_name_horizontal.png" alt="Mobile Cell Medix" />
+      </a>
+      <nav class="header-nav">
+        <a href="#services" class="header-link">Services</a>
+        <a href="#reviews" class="header-link">Reviews</a>
+        <a href="#faq" class="header-link">FAQ</a>
+        <a href="#map-section" class="header-link">Location</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            style="display: none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <a href="tel:9053021942" class="header-cta">Call (905) 302‑1942</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== Hero ========== -->
+  <section class="hero">
+    <svg class="bg-medic-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M19 10h-5V5c0-1.1-.9-2-2-2h-0c-1.1 0-2 .9-2 2v5H5c-1.1 0-2 .9-2 2v0c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h0c1.1 0 2-.9 2-2v-5h5c1.1 0 2-.9 2-2v0c0-1.1-.9-2-2-2z" />
+    </svg>
+    <div class="hero-content reveal">
+      <img src="photos/logo.png" alt="Mobile Cell Medix" class="hero-logo" style="height: 64px; margin-bottom: 32px" />
+      <h1>Your devices.<br /><span class="gradient-text">Fixed.</span></h1>
+      <p class="subhead">
+        Fast, stress-free repair for iPhone, Mac, and Gaming Consoles in
+        Mississauga. At your door or in our shop.
+      </p>
+      <div class="hero-actions">
+        <a href="tel:9053021942" class="btn-primary">Call to Book · (905) 302‑1942</a>
+        <a href="#map-section" class="btn-secondary" id="directions-link">
+          View map &amp; directions<span class="chevron"> ›</span>
         </a>
-        <nav class="header-nav">
-          <a href="#services" class="header-link">Services</a>
-          <a href="#reviews" class="header-link">Reviews</a>
-          <a href="#faq" class="header-link">FAQ</a>
-          <a href="#map-section" class="header-link">Location</a>
-          <button
-            class="theme-toggle"
-            id="theme-toggle"
-            aria-label="Toggle light/dark mode"
-          >
-            <svg
-              class="sun-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="12" cy="12" r="5" />
-              <line x1="12" y1="1" x2="12" y2="3" />
-              <line x1="12" y1="21" x2="12" y2="23" />
-              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-              <line x1="1" y1="12" x2="3" y2="12" />
-              <line x1="21" y1="12" x2="23" y2="12" />
-              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-            </svg>
-            <svg
-              class="moon-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              style="display: none"
-            >
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-            </svg>
-          </button>
-          <a href="tel:9053021942" class="header-cta">Call (905) 302‑1942</a>
-        </nav>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- ========== Hero ========== -->
-    <section class="hero">
-      <svg
-        class="bg-medic-cross"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-      >
-        <path
-          d="M19 10h-5V5c0-1.1-.9-2-2-2h-0c-1.1 0-2 .9-2 2v5H5c-1.1 0-2 .9-2 2v0c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h0c1.1 0 2-.9 2-2v-5h5c1.1 0 2-.9 2-2v0c0-1.1-.9-2-2-2z"
-        />
-      </svg>
-      <div class="hero-content reveal">
-        <img
-          src="photos/logo.png"
-          alt="Mobile Cell Medix"
-          class="hero-logo"
-          style="height: 64px; margin-bottom: 32px"
-        />
-        <h1>Your devices.<br /><span class="gradient-text">Fixed.</span></h1>
-        <p class="subhead">
-          Fast, stress-free repair for iPhone, Mac, and Gaming Consoles in
-          Mississauga. At your door or in our shop.
-        </p>
-        <div class="hero-actions">
-          <a href="tel:9053021942" class="btn-primary"
-            >Call to Book · (905) 302‑1942</a
-          >
-          <a href="#map-section" class="btn-secondary" id="directions-link">
-            View map &amp; directions<span class="chevron"> ›</span>
-          </a>
+  <hr class="section-divider" />
+
+  <!-- ========== Services ========== -->
+  <section class="services" id="services">
+    <div class="section-header reveal">
+      <h2>What we fix.</h2>
+      <p>Expert repairs. No appointment needed.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+            <line x1="12" y1="18" x2="12.01" y2="18" />
+          </svg>
         </div>
+        <h3>iPhone &amp; Smartphone</h3>
+        <p>
+          Broken screens, dead batteries, and camera fixes. Done in minutes.
+        </p>
+        <div class="service-tags">
+          <span>Screens</span><span>Batteries</span><span>Water Damage</span>
+        </div>
+        <div class="service-link">View services <span>↗</span></div>
       </div>
-    </section>
 
-    <hr class="section-divider" />
-
-    <!-- ========== Services ========== -->
-    <section class="services" id="services">
-      <div class="section-header reveal">
-        <h2>What we fix.</h2>
-        <p>Expert repairs. No appointment needed.</p>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+            <line x1="8" y1="21" x2="16" y2="21" />
+            <line x1="12" y1="17" x2="12" y2="21" />
+          </svg>
+        </div>
+        <h3>MacBook &amp; Laptops</h3>
+        <p>Keyboard fixes, battery replacements, and quick diagnostics.</p>
+        <div class="service-tags">
+          <span>Keyboards</span><span>Logic Boards</span><span>Data Recovery</span>
+        </div>
+        <div class="service-link">View services <span>↗</span></div>
       </div>
-      <div class="services-grid">
-        <div class="service-card reveal">
-          <div class="service-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
-              <line x1="12" y1="18" x2="12.01" y2="18" />
-            </svg>
-          </div>
-          <h3>iPhone &amp; Smartphone</h3>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="2" width="16" height="20" rx="2" ry="2" />
+            <line x1="12" y1="18" x2="12.01" y2="18" />
+          </svg>
+        </div>
+        <h3>iPad &amp; Tablets</h3>
+        <p>Cracked glass repair and charging port fixes.</p>
+        <div class="service-tags">
+          <span>Glass</span><span>Charging Ports</span><span>Buttons</span>
+        </div>
+        <div class="service-link">View services <span>↗</span></div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="6" width="20" height="12" rx="2" />
+            <line x1="6" y1="12" x2="6.01" y2="12" />
+            <line x1="10" y1="12" x2="10.01" y2="12" />
+            <circle cx="17" cy="12" r="2" />
+          </svg>
+        </div>
+        <h3>PS5 &amp; Gaming Consoles</h3>
+        <p>HDMI port fixes, loud fan repairs, and disc drive fixes.</p>
+        <div class="service-tags">
+          <span>HDMI Ports</span><span>Overheating</span><span>Controllers</span>
+        </div>
+        <div class="service-link">View services <span>↗</span></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider" />
+
+  <!-- ========== Showcase ========== -->
+  <section id="how-it-works">
+    <!-- Row 1: Mobile Lab -->
+    <div class="showcase-block">
+      <div class="showcase-inner">
+        <div class="showcase-text reveal">
+          <p class="eyebrow">Mobile Repair</p>
+          <h2>We drive to you.<br />The Mobile Lab.</h2>
           <p>
-            Broken screens, dead batteries, and camera fixes. Done in minutes.
+            A complete repair shop arrives at your driveway. No commute, no
+            waiting rooms — just fast, professional fixes while you go about
+            your day.
           </p>
-          <div class="service-tags">
-            <span>Screens</span><span>Batteries</span><span>Water Damage</span>
-          </div>
-          <div class="service-link">View services <span>↗</span></div>
         </div>
-
-        <div class="service-card reveal">
-          <div class="service-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-              <line x1="8" y1="21" x2="16" y2="21" />
-              <line x1="12" y1="17" x2="12" y2="21" />
-            </svg>
-          </div>
-          <h3>MacBook &amp; Laptops</h3>
-          <p>Keyboard fixes, battery replacements, and quick diagnostics.</p>
-          <div class="service-tags">
-            <span>Keyboards</span><span>Logic Boards</span
-            ><span>Data Recovery</span>
-          </div>
-          <div class="service-link">View services <span>↗</span></div>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="service-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="4" y="2" width="16" height="20" rx="2" ry="2" />
-              <line x1="12" y1="18" x2="12.01" y2="18" />
-            </svg>
-          </div>
-          <h3>iPad &amp; Tablets</h3>
-          <p>Cracked glass repair and charging port fixes.</p>
-          <div class="service-tags">
-            <span>Glass</span><span>Charging Ports</span><span>Buttons</span>
-          </div>
-          <div class="service-link">View services <span>↗</span></div>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="service-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="2" y="6" width="20" height="12" rx="2" />
-              <line x1="6" y1="12" x2="6.01" y2="12" />
-              <line x1="10" y1="12" x2="10.01" y2="12" />
-              <circle cx="17" cy="12" r="2" />
-            </svg>
-          </div>
-          <h3>PS5 &amp; Gaming Consoles</h3>
-          <p>HDMI port fixes, loud fan repairs, and disc drive fixes.</p>
-          <div class="service-tags">
-            <span>HDMI Ports</span><span>Overheating</span
-            ><span>Controllers</span>
-          </div>
-          <div class="service-link">View services <span>↗</span></div>
+        <div class="showcase-media reveal-scale">
+          <img src="photos/outside%20truck.png" alt="MobileCellMedix repair van arriving at a customer's home" />
         </div>
       </div>
-    </section>
+    </div>
 
     <hr class="section-divider" />
 
-    <!-- ========== Showcase ========== -->
-    <section id="how-it-works">
-      <!-- Row 1: Mobile Lab -->
-      <div class="showcase-block">
-        <div class="showcase-inner">
-          <div class="showcase-text reveal">
-            <p class="eyebrow">Mobile Repair</p>
-            <h2>We drive to you.<br />The Mobile Lab.</h2>
-            <p>
-              A complete repair shop arrives at your driveway. No commute, no
-              waiting rooms — just fast, professional fixes while you go about
-              your day.
-            </p>
-          </div>
-          <div class="showcase-media reveal-scale">
-            <img
-              src="photos/outside%20truck.png"
-              alt="MobileCellMedix repair van arriving at a customer's home"
-            />
-          </div>
+    <!-- Row 2: Storefront -->
+    <div class="showcase-block reverse">
+      <div class="showcase-inner">
+        <div class="showcase-media reveal-scale">
+          <img src="photos/store%20photo.png" alt="MobileCellMedix storefront in Port Credit, Mississauga" />
+        </div>
+        <div class="showcase-text reveal">
+          <p class="eyebrow">In-Store</p>
+          <h2>Visit our shop.<br />Walk right in.</h2>
+          <p>
+            Our Port Credit location is open for walk-ins. Bring your device
+            in, grab a coffee across the street, and pick it up fixed.
+          </p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <hr class="section-divider" />
+  <hr class="section-divider" />
 
-      <!-- Row 2: Storefront -->
-      <div class="showcase-block reverse">
-        <div class="showcase-inner">
-          <div class="showcase-media reveal-scale">
-            <img
-              src="photos/store%20photo.png"
-              alt="MobileCellMedix storefront in Port Credit, Mississauga"
-            />
-          </div>
-          <div class="showcase-text reveal">
-            <p class="eyebrow">In-Store</p>
-            <h2>Visit our shop.<br />Walk right in.</h2>
-            <p>
-              Our Port Credit location is open for walk-ins. Bring your device
-              in, grab a coffee across the street, and pick it up fixed.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <!-- ========== Meet the Owner ========== -->
-    <section class="owner-section" id="about">
-      <div class="container">
-        <div class="owner-grid">
-          <div class="owner-text reveal">
-            <p class="eyebrow">Our Mission</p>
-            <h2>We are here to make sure your device is working.</h2>
-            <p>
-              Founded by Amine, Mobile Cell Medix was built on a simple promise:
-              to provide Mississauga with honest, reliable, and expert device
-              repairs without the hassle.
-            </p>
-            <p>
-              Whether Amine is driving out to your location for a mobile repair
-              or welcoming you into our Port Credit shop, our primary focus
-              remains the same—delivering top-tier diagnostics, efficient
-              service, and getting your tech back in your hands perfectly fixed.
-            </p>
-            <div class="owner-badge">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                style="color: #dc2327"
-              >
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-              </svg>
-              <span>Certified Technician</span>
-            </div>
-          </div>
-
-          <div class="owner-photos reveal-scale">
-            <div class="photo-main" style="width: 100%">
-              <img
-                src="photos/amine_alone.jpeg"
-                alt="Amine - Owner of Mobile Cell Medix"
-                style="width: 100%; border-radius: 20px"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <!-- ========== Reviews ========== -->
-    <section class="reviews-section" id="reviews">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="reviews-badge">
-            <svg class="google-icon" viewBox="0 0 24 24" width="24" height="24">
-              <path
-                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                fill="#4285F4"
-              />
-              <path
-                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                fill="#34A853"
-              />
-              <path
-                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                fill="#FBBC05"
-              />
-              <path
-                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                fill="#EA4335"
-              />
+  <!-- ========== Meet the Owner ========== -->
+  <section class="owner-section" id="about">
+    <div class="container">
+      <div class="owner-grid">
+        <div class="owner-text reveal">
+          <p class="eyebrow">Our Mission</p>
+          <h2>We are here to make sure your device is working.</h2>
+          <p>
+            Founded by Amine, Mobile Cell Medix was built on a simple promise:
+            to provide Mississauga with honest, reliable, and expert device
+            repairs without the hassle.
+          </p>
+          <p>
+            Whether Amine is driving out to your location for a mobile repair
+            or welcoming you into our Port Credit shop, our primary focus
+            remains the same—delivering top-tier diagnostics, efficient
+            service, and getting your tech back in your hands perfectly fixed.
+          </p>
+          <div class="owner-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              style="color: #dc2327">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
             </svg>
-            <span class="reviews-source">Google Reviews</span>
+            <span>Certified Technician</span>
           </div>
-          <h2>What our customers say.</h2>
-          <div class="reviews-stars-summary">
-            <div class="stars-row">
-              <svg viewBox="0 0 20 20" width="22" height="22">
-                <path
-                  d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                  fill="#FBBC05"
-                />
-              </svg>
-              <svg viewBox="0 0 20 20" width="22" height="22">
-                <path
-                  d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                  fill="#FBBC05"
-                />
-              </svg>
-              <svg viewBox="0 0 20 20" width="22" height="22">
-                <path
-                  d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                  fill="#FBBC05"
-                />
-              </svg>
-              <svg viewBox="0 0 20 20" width="22" height="22">
-                <path
-                  d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                  fill="#FBBC05"
-                />
-              </svg>
-              <svg viewBox="0 0 20 20" width="22" height="22">
-                <path
-                  d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                  fill="#FBBC05"
-                />
-              </svg>
+        </div>
+        <div class="owner-photos reveal-scale">
+          <div class="photo-main">
+            <img src="photos/amine_alone.jpeg" alt="Amine - Owner of Mobile Cell Medix" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider" />
+
+  <!-- ========== Reviews ========== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="reviews-badge">
+          <svg class="google-icon" viewBox="0 0 24 24" width="24" height="24">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+          <span class="reviews-source">Google Reviews</span>
+        </div>
+        <h2>What our customers say.</h2>
+        <div class="reviews-stars-summary">
+          <div class="stars-row">
+            <svg viewBox="0 0 20 20" width="22" height="22">
+              <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z" fill="#FBBC05" />
+            </svg>
+            <svg viewBox="0 0 20 20" width="22" height="22">
+              <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z" fill="#FBBC05" />
+            </svg>
+            <svg viewBox="0 0 20 20" width="22" height="22">
+              <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z" fill="#FBBC05" />
+            </svg>
+            <svg viewBox="0 0 20 20" width="22" height="22">
+              <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z" fill="#FBBC05" />
+            </svg>
+            <svg viewBox="0 0 20 20" width="22" height="22">
+              <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z" fill="#FBBC05" />
+            </svg>
+          </div>
+          <span class="reviews-rating-text">5.0 · 40+ reviews</span>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="reviews-carousel-wrap">
+        <button class="reviews-arrow reviews-arrow-left" aria-label="Previous reviews">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+
+        <div class="reviews-carousel" id="reviews-carousel">
+          <div class="reviews-track" id="reviews-track">
+            <!-- Review 1 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #4285f4">L</div>
+                <div class="review-meta">
+                  <span class="review-name">Lee B.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                I went to My Cell Tech to get my iPhone 14 display screen
+                repaired and had a great experience. They explained different
+                repair options clearly, and once I chose the option I wanted,
+                the repair was completed within 30 minutes. Professional,
+                quick, and honest service. Highly recommended!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
             </div>
-            <span class="reviews-rating-text">5.0 · 40+ reviews</span>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #ea4335">S</div>
+                <div class="review-meta">
+                  <span class="review-name">Shoaib I.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Absolutely outstanding service! I dropped off my cracked
+                iPhone screen on a busy Saturday, and they fixed it in under
+                30 minutes while I waited. The repair looks perfect—like brand
+                new—and they even threw in a free tempered glass screen
+                protector. Highly recommend this shop!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #34a853">M</div>
+                <div class="review-meta">
+                  <span class="review-name">Mohammed M.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                My Samsung S25 Ultra screen had shattered due to a fall. I was
+                worried it was damaged beyond repair. However, within 2 hours
+                I got a call saying my mobile was repaired and ready. I was so
+                happy! They also charged me very reasonably.
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #fbbc05; color: #1d1d1f">
+                  G
+                </div>
+                <div class="review-meta">
+                  <span class="review-name">Gabriel A.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Have been going there since 8 years. Never experienced such
+                customer service anywhere else. Phone repair experts. I have
+                fixed all my phones and computers at this place. Definitely
+                recommend to anyone who is looking for quality service.
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #4285f4">N</div>
+                <div class="review-meta">
+                  <span class="review-name">Nicolas P.</span>
+                  <span class="review-date">3 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Very good, amazing pricing, I got my iPhone 15 Pro Max front
+                screen and back screen replaced as well as my battery and
+                charging done in a timely manner. Very respectful and was able
+                to solve my problems without any further issues. The work is
+                quality.
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #ea4335">L</div>
+                <div class="review-meta">
+                  <span class="review-name">Lee-Anne S.</span>
+                  <span class="review-date">a year ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                I had such a positive experience at My Cell Tech. My iPhone
+                wouldn't start and I needed it repaired ASAP. The manager
+                Martin ordered me a new battery and installed it in 2 hours.
+                My cell phone is the only way people can contact me and I rely
+                on it so much. I highly recommend them!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 7 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #34a853">S</div>
+                <div class="review-meta">
+                  <span class="review-name">Syed M.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                I had a great experience with this phone refurbishment and
+                repair service. The staff was professional, knowledgeable, and
+                very helpful in explaining the issue with my phone. The repair
+                was done quickly and at a reasonable price, and my phone now
+                works like new. Highly recommended!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 8 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #fbbc05; color: #1d1d1f">
+                  J
+                </div>
+                <div class="review-meta">
+                  <span class="review-name">Jane M.</span>
+                  <span class="review-date">2 weeks ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Had dealt with Amine at this shop before with iPhone issues
+                and knew where to go for a new case. Rather than just replace
+                the metal holder he showed me cases where an adjustable holder
+                was already part of the case. Much more secure. Very happy
+                with the new case.
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 9 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #4285f4">M</div>
+                <div class="review-meta">
+                  <span class="review-name">M Jebbison</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Exceptional service, along with complete professionalism! I
+                brought my phone to repair the screen and had it fixed within
+                2.5 hours. They're definitely efficient. They've gained a long
+                term customer for sure!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 10 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #ea4335">I</div>
+                <div class="review-meta">
+                  <span class="review-name">Ilkim C.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Syed was the best. He went above and beyond to help me resell
+                my phone. I will definitely come back here and recommend it to
+                everyone!!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 11 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #34a853">S</div>
+                <div class="review-meta">
+                  <span class="review-name">Seema F.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                The best and the most reliable electronic store. They have
+                compatible prices and get things repaired so quickly and
+                perfectly. It's more than 5 stars!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 12 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #fbbc05; color: #1d1d1f">
+                  J
+                </div>
+                <div class="review-meta">
+                  <span class="review-name">Jan D.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Visited to duplicate iPhone data on new Google phone for
+                travel and cybersecurity. Helpful discussion about VPN, eSIM.
+                Quick reasonable service and pricing. Gufran is now my
+                cellphone go-to person!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 13 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #4285f4">P</div>
+                <div class="review-meta">
+                  <span class="review-name">Pat D.</span>
+                  <span class="review-date">4 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Competent, courteous, knowledgeable and efficient. Repaired my
+                cell phone and made suggestions for improved safety against
+                breakage.
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
+
+            <!-- Review 14 -->
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-avatar" style="background: #ea4335">L</div>
+                <div class="review-meta">
+                  <span class="review-name">Layla J.</span>
+                  <span class="review-date">5 months ago</span>
+                </div>
+              </div>
+              <div class="review-stars">
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+                <svg viewBox="0 0 20 20" width="16" height="16">
+                  <path d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
+                    fill="#FBBC05" />
+                </svg>
+              </div>
+              <p class="review-text">
+                Just got my iPhone fixed here, absolutely amazing customer
+                service and even better prices. They work quickly and
+                efficiently getting everything done in a short time frame even
+                on short notice. Love this place!!
+              </p>
+              <div class="review-google-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+                    fill="#4285F4" />
+                  <path
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    fill="#34A853" />
+                  <path
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    fill="#FBBC05" />
+                  <path
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    fill="#EA4335" />
+                </svg>
+                <span>Google Review</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Carousel -->
-        <div class="reviews-carousel-wrap">
-          <button
-            class="reviews-arrow reviews-arrow-left"
-            aria-label="Previous reviews"
-          >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
+        <button class="reviews-arrow reviews-arrow-right" aria-label="Next reviews">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Carousel dots -->
+      <div class="reviews-dots" id="reviews-dots"></div>
+    </div>
+  </section>
+
+  <hr class="section-divider" />
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Smart questions.</h2>
+        <p>Everything you need to know about our repair services.</p>
+      </div>
+
+      <div class="faq-list reveal-scale">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How fast can you fix my device?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
           </button>
-
-          <div class="reviews-carousel" id="reviews-carousel">
-            <div class="reviews-track" id="reviews-track">
-              <!-- Review 1 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #4285f4">L</div>
-                  <div class="review-meta">
-                    <span class="review-name">Lee B.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  I went to My Cell Tech to get my iPhone 14 display screen
-                  repaired and had a great experience. They explained different
-                  repair options clearly, and once I chose the option I wanted,
-                  the repair was completed within 30 minutes. Professional,
-                  quick, and honest service. Highly recommended!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 2 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #ea4335">S</div>
-                  <div class="review-meta">
-                    <span class="review-name">Shoaib I.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Absolutely outstanding service! I dropped off my cracked
-                  iPhone screen on a busy Saturday, and they fixed it in under
-                  30 minutes while I waited. The repair looks perfect—like brand
-                  new—and they even threw in a free tempered glass screen
-                  protector. Highly recommend this shop!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 3 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #34a853">M</div>
-                  <div class="review-meta">
-                    <span class="review-name">Mohammed M.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  My Samsung S25 Ultra screen had shattered due to a fall. I was
-                  worried it was damaged beyond repair. However, within 2 hours
-                  I got a call saying my mobile was repaired and ready. I was so
-                  happy! They also charged me very reasonably.
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 4 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div
-                    class="review-avatar"
-                    style="background: #fbbc05; color: #1d1d1f"
-                  >
-                    G
-                  </div>
-                  <div class="review-meta">
-                    <span class="review-name">Gabriel A.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Have been going there since 8 years. Never experienced such
-                  customer service anywhere else. Phone repair experts. I have
-                  fixed all my phones and computers at this place. Definitely
-                  recommend to anyone who is looking for quality service.
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 5 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #4285f4">N</div>
-                  <div class="review-meta">
-                    <span class="review-name">Nicolas P.</span>
-                    <span class="review-date">3 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Very good, amazing pricing, I got my iPhone 15 Pro Max front
-                  screen and back screen replaced as well as my battery and
-                  charging done in a timely manner. Very respectful and was able
-                  to solve my problems without any further issues. The work is
-                  quality.
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 6 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #ea4335">L</div>
-                  <div class="review-meta">
-                    <span class="review-name">Lee-Anne S.</span>
-                    <span class="review-date">a year ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  I had such a positive experience at My Cell Tech. My iPhone
-                  wouldn't start and I needed it repaired ASAP. The manager
-                  Martin ordered me a new battery and installed it in 2 hours.
-                  My cell phone is the only way people can contact me and I rely
-                  on it so much. I highly recommend them!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 7 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #34a853">S</div>
-                  <div class="review-meta">
-                    <span class="review-name">Syed M.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  I had a great experience with this phone refurbishment and
-                  repair service. The staff was professional, knowledgeable, and
-                  very helpful in explaining the issue with my phone. The repair
-                  was done quickly and at a reasonable price, and my phone now
-                  works like new. Highly recommended!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 8 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div
-                    class="review-avatar"
-                    style="background: #fbbc05; color: #1d1d1f"
-                  >
-                    J
-                  </div>
-                  <div class="review-meta">
-                    <span class="review-name">Jane M.</span>
-                    <span class="review-date">2 weeks ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Had dealt with Amine at this shop before with iPhone issues
-                  and knew where to go for a new case. Rather than just replace
-                  the metal holder he showed me cases where an adjustable holder
-                  was already part of the case. Much more secure. Very happy
-                  with the new case.
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 9 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #4285f4">M</div>
-                  <div class="review-meta">
-                    <span class="review-name">M Jebbison</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Exceptional service, along with complete professionalism! I
-                  brought my phone to repair the screen and had it fixed within
-                  2.5 hours. They're definitely efficient. They've gained a long
-                  term customer for sure!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 10 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #ea4335">I</div>
-                  <div class="review-meta">
-                    <span class="review-name">Ilkim C.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Syed was the best. He went above and beyond to help me resell
-                  my phone. I will definitely come back here and recommend it to
-                  everyone!!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 11 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #34a853">S</div>
-                  <div class="review-meta">
-                    <span class="review-name">Seema F.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  The best and the most reliable electronic store. They have
-                  compatible prices and get things repaired so quickly and
-                  perfectly. It's more than 5 stars!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 12 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div
-                    class="review-avatar"
-                    style="background: #fbbc05; color: #1d1d1f"
-                  >
-                    J
-                  </div>
-                  <div class="review-meta">
-                    <span class="review-name">Jan D.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Visited to duplicate iPhone data on new Google phone for
-                  travel and cybersecurity. Helpful discussion about VPN, eSIM.
-                  Quick reasonable service and pricing. Gufran is now my
-                  cellphone go-to person!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 13 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #4285f4">P</div>
-                  <div class="review-meta">
-                    <span class="review-name">Pat D.</span>
-                    <span class="review-date">4 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Competent, courteous, knowledgeable and efficient. Repaired my
-                  cell phone and made suggestions for improved safety against
-                  breakage.
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
-
-              <!-- Review 14 -->
-              <div class="review-card">
-                <div class="review-card-top">
-                  <div class="review-avatar" style="background: #ea4335">L</div>
-                  <div class="review-meta">
-                    <span class="review-name">Layla J.</span>
-                    <span class="review-date">5 months ago</span>
-                  </div>
-                </div>
-                <div class="review-stars">
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                  <svg viewBox="0 0 20 20" width="16" height="16">
-                    <path
-                      d="M10 1l2.39 6.17H19l-5.3 4.06L15.92 18 10 13.77 4.08 18l2.22-6.77L1 7.17h6.61z"
-                      fill="#FBBC05"
-                    />
-                  </svg>
-                </div>
-                <p class="review-text">
-                  Just got my iPhone fixed here, absolutely amazing customer
-                  service and even better prices. They work quickly and
-                  efficiently getting everything done in a short time frame even
-                  on short notice. Love this place!!
-                </p>
-                <div class="review-google-badge">
-                  <svg viewBox="0 0 24 24" width="14" height="14">
-                    <path
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
-                      fill="#4285F4"
-                    />
-                    <path
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      fill="#34A853"
-                    />
-                    <path
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      fill="#FBBC05"
-                    />
-                    <path
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      fill="#EA4335"
-                    />
-                  </svg>
-                  <span>Google Review</span>
-                </div>
-              </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                We know how tough it is to be without your phone. That's why
+                we aim to complete most standard repairs—like screen or
+                battery replacements—in under an hour. Drop it off, grab a
+                coffee, and it will usually be ready before you get back.
+              </p>
             </div>
           </div>
+        </div>
 
-          <button
-            class="reviews-arrow reviews-arrow-right"
-            aria-label="Next reviews"
-          >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Do you offer a warranty on your repairs?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
           </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Absolutely. Quality is our top priority, which is why we back
+                our repair services with a solid warranty. For example, our
+                battery replacements include a full 1-year guarantee, giving
+                you complete peace of mind long after you leave the shop.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <!-- Carousel dots -->
-        <div class="reviews-dots" id="reviews-dots"></div>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <!-- ========== FAQ ========== -->
-    <section class="faq-section" id="faq">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2>Smart questions.</h2>
-          <p>Everything you need to know about our repair services.</p>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Should I book an appointment before coming in?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Walk-ins are always welcome at our Port Credit location! If
+                you're pressed for time, you can also schedule our mobile
+                repair van to come directly to your home or workplace for
+                ultimate convenience.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="faq-list reveal-scale">
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              How fast can you fix my device?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  We know how tough it is to be without your phone. That's why
-                  we aim to complete most standard repairs—like screen or
-                  battery replacements—in under an hour. Drop it off, grab a
-                  coffee, and it will usually be ready before you get back.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I get an estimate for my repair?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Getting a quote is simple and totally free. You can give us a
+                call at (905) 302-1942, shoot us a message, or just swing by
+                the shop. We'll diagnose the issue at no cost and give you an
+                upfront price before any work begins.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              Do you offer a warranty on your repairs?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Absolutely. Quality is our top priority, which is why we back
-                  our repair services with a solid warranty. For example, our
-                  battery replacements include a full 1-year guarantee, giving
-                  you complete peace of mind long after you leave the shop.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Where is your repair shop located?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Come visit us at 257 Lakeshore Rd E in the heart of Port
+                Credit, Mississauga (ON L5G 1G8). Can't make the drive? Let us
+                know, and our fully-outfitted mobile lab will drive to you.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              Should I book an appointment before coming in?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Walk-ins are always welcome at our Port Credit location! If
-                  you're pressed for time, you can also schedule our mobile
-                  repair van to come directly to your home or workplace for
-                  ultimate convenience.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Will I lose my photos and data during the repair?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Most hardware repairs won't affect your data. However, if you
+                want to be extra safe, we offer a dedicated data backup
+                service. We can securely save your information before the
+                repair and restore it immediately afterward.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              How do I get an estimate for my repair?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Getting a quote is simple and totally free. You can give us a
-                  call at (905) 302-1942, shoot us a message, or just swing by
-                  the shop. We'll diagnose the issue at no cost and give you an
-                  upfront price before any work begins.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What forms of payment do you accept?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                We like to make things easy. You can pay using all major
+                credit cards, Interac debit, or cash.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              Where is your repair shop located?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Come visit us at 257 Lakeshore Rd E in the heart of Port
-                  Credit, Mississauga (ON L5G 1G8). Can't make the drive? Let us
-                  know, and our fully-outfitted mobile lab will drive to you.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What kind of devices and issues do you fix?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                If it has a screen and a battery, chances are we can fix it.
+                From shattered iPhone screens and degraded batteries to
+                MacBook logic board issues and broken PlayStation HDMI ports,
+                our expert technicians handle it all.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              Will I lose my photos and data during the repair?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Most hardware repairs won't affect your data. However, if you
-                  want to be extra safe, we offer a dedicated data backup
-                  service. We can securely save your information before the
-                  repair and restore it immediately afterward.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I know if I need a new battery?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                If your phone is dying quickly, shutting down unexpectedly at
+                20%, or feeling sluggish, your battery has likely degraded.
+                For iPhones, we generally recommend a replacement once your
+                "Battery Health" drops to 80% or below. A fresh battery will
+                make your device feel brand new again.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              What forms of payment do you accept?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  We like to make things easy. You can pay using all major
-                  credit cards, Interac debit, or cash.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              What kind of devices and issues do you fix?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  If it has a screen and a battery, chances are we can fix it.
-                  From shattered iPhone screens and degraded batteries to
-                  MacBook logic board issues and broken PlayStation HDMI ports,
-                  our expert technicians handle it all.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              How do I know if I need a new battery?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  If your phone is dying quickly, shutting down unexpectedly at
-                  20%, or feeling sluggish, your battery has likely degraded.
-                  For iPhones, we generally recommend a replacement once your
-                  "Battery Health" drops to 80% or below. A fresh battery will
-                  make your device feel brand new again.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              Why does my iPhone show an "Important Display Message" after
-              repair?
-              <span class="faq-icon">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>
-                  Apple uses strict software locks on their components. Even
-                  when we use premium, thoroughly tested parts to fix your
-                  device, your iPhone may display a notification simply because
-                  the repair wasn't done at an Apple Store. Rest assured, this
-                  is a standard software notification and has absolutely zero
-                  impact on your phone's performance or safety.
-                </p>
-              </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Why does my iPhone show an "Important Display Message" after
+            repair?
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Apple uses strict software locks on their components. Even
+                when we use premium, thoroughly tested parts to fix your
+                device, your iPhone may display a notification simply because
+                the repair wasn't done at an Apple Store. Rest assured, this
+                is a standard software notification and has absolutely zero
+                impact on your phone's performance or safety.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr class="section-divider" />
+  <hr class="section-divider" />
 
-    <!-- ========== Map ========== -->
-    <section class="map-section" id="map-section">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2>Find us.</h2>
-          <p>257 Lakeshore Rd E, Mississauga, ON L5G 1G8</p>
-        </div>
-        <div class="map-embed-wrap reveal-scale">
-          <iframe
-            class="map-embed"
-            src="https://maps.google.com/maps?q=257%20Lakeshore%20Rd%20E,%20Mississauga,%20ON%20L5G%201G8&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="MobileCellMedix Location Map"
-          >
-          </iframe>
-        </div>
-        <div class="map-cta reveal">
-          <a
-            href="https://maps.app.goo.gl/gRpgyhFqJ18RgLif7"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn-primary"
-          >
-            Get Directions ›
-          </a>
-        </div>
+  <!-- ========== Map ========== -->
+  <section class="map-section" id="map-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Find us.</h2>
+        <p>257 Lakeshore Rd E, Mississauga, ON L5G 1G8</p>
       </div>
-    </section>
-
-    <!-- ========== Footer ========== -->
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <img
-          src="photos/logo_name_wide.png"
-          alt="Mobile Cell Medix"
-          class="footer-logo"
-        />
-        <p>
-          Questions?
-          <a href="mailto:info@mobilecellmedix.com">info@mobilecellmedix.com</a>
-        </p>
-        <hr class="footer-sep" />
-        <p>
-          Copyright &copy; <span id="footer-year"></span> MobileCellMedix. All
-          rights reserved.
-        </p>
+      <div class="map-embed-wrap reveal-scale">
+        <iframe class="map-embed"
+          src="https://maps.google.com/maps?q=257%20Lakeshore%20Rd%20E,%20Mississauga,%20ON%20L5G%201G8&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="MobileCellMedix Location Map">
+        </iframe>
       </div>
-    </footer>
+      <div class="map-cta reveal">
+        <a href="https://maps.app.goo.gl/gRpgyhFqJ18RgLif7" target="_blank" rel="noopener noreferrer"
+          class="btn-primary">
+          Get Directions ›
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-    <script>
-      const themeToggle = document.getElementById("theme-toggle");
-      const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="photos/logo_name_wide.png" alt="Mobile Cell Medix" class="footer-logo" />
+      <p>
+        Questions?
+        <a href="mailto:info@mobilecellmedix.com">info@mobilecellmedix.com</a>
+      </p>
+      <hr class="footer-sep" />
+      <p>
+        Copyright &copy; <span id="footer-year"></span> MobileCellMedix. All
+        rights reserved.
+      </p>
+    </div>
+  </footer>
 
-      // Check local storage first, then fallback to system preference
-      const currentTheme = localStorage.getItem("theme");
-      if (currentTheme === "light") {
-        document.body.classList.add("light-mode");
-      } else if (currentTheme === "dark") {
-        document.body.classList.remove("light-mode");
-      } else if (prefersLight.matches) {
-        document.body.classList.add("light-mode");
-      }
+  <script src="script.js"></script>
+  <script>
+    const themeToggle = document.getElementById("theme-toggle");
+    const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
 
-      // Toggle manual preference
-      themeToggle.addEventListener("click", () => {
-        document.body.classList.toggle("light-mode");
-        const isLight = document.body.classList.contains("light-mode");
-        localStorage.setItem("theme", isLight ? "light" : "dark");
-      });
+    // Check local storage first, then fallback to system preference
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme === "light") {
+      document.body.classList.add("light-mode");
+    } else if (currentTheme === "dark") {
+      document.body.classList.remove("light-mode");
+    } else if (prefersLight.matches) {
+      document.body.classList.add("light-mode");
+    }
 
-      // Listen for system changes (only apply if user hasn't set a manual override)
-      prefersLight.addEventListener("change", (e) => {
-        if (!localStorage.getItem("theme")) {
-          if (e.matches) {
-            document.body.classList.add("light-mode");
-          } else {
-            document.body.classList.remove("light-mode");
-          }
+    // Toggle manual preference
+    themeToggle.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+      const isLight = document.body.classList.contains("light-mode");
+      localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
+
+    // Listen for system changes (only apply if user hasn't set a manual override)
+    prefersLight.addEventListener("change", (e) => {
+      if (!localStorage.getItem("theme")) {
+        if (e.matches) {
+          document.body.classList.add("light-mode");
+        } else {
+          document.body.classList.remove("light-mode");
         }
-      });
-    </script>
-  </body>
+      }
+    });
+  </script>
+</body>
+
 </html>
