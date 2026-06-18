@@ -353,6 +353,12 @@
   }
 
   if (fab) fab.addEventListener('click', openDrawer);
+
+  // Service card "Book Now" buttons
+  document.querySelectorAll('.book-now-trigger').forEach(btn => {
+    btn.addEventListener('click', openDrawer);
+  });
+
   if (drawerClose) drawerClose.addEventListener('click', () => {
     closeDrawer();
     // Reset form after close animation
