@@ -283,4 +283,114 @@
     });
   });
 
+  // ---------- Booking Drawer ----------
+  const fab = document.getElementById('fab-book');
+  const backdrop = document.getElementById('booking-backdrop');
+  const drawer = document.getElementById('booking-drawer');
+  const drawerClose = document.getElementById('drawer-close');
+  const bookingForm = document.getElementById('booking-form');
+  const drawerSuccess = document.getElementById('drawer-success');
+  const submitBtn = document.getElementById('btn-submit');
+  const formError = document.getElementById('form-error');
+
+  function openDrawer() {
+    backdrop.classList.add('active');
+    drawer.classList.add('active');
+    fab.classList.add('hidden');
+    document.body.style.overflow = 'hidden';
+    // Focus the first input after animation
+    setTimeout(() => {
+      const firstInput = bookingForm.querySelector('input:not([type="hidden"])');
+      if (firstInput) firstInput.focus();
+    }, 400);
+  }
+
+  function closeDrawer() {
+    backdrop.classList.remove('active');
+    drawer.classList.remove('active');
+    fab.classList.remove('hidden');
+    document.body.style.overflow = '';
+  }
+
+  function resetDrawer() {
+    bookingForm.classList.remove('hidden');
+    drawerSuccess.classList.remove('active');
+    bookingForm.reset();
+    formError.textContent = '';
+    submitBtn.classList.remove('loading');
+    submitBtn.disabled = false;
+  }
+
+  if (fab) fab.addEventListener('click', openDrawer);
+  if (drawerClose) drawerClose.addEventListener('click', () => {
+    closeDrawer();
+    // Reset form after close animation
+    setTimeout(resetDrawer, 500);
+  });
+  if (backdrop) backdrop.addEventListener('click', () => {
+    closeDrawer();
+    setTimeout(resetDrawer, 500);
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && drawer.classList.contains('active')) {
+      closeDrawer();
+      setTimeout(resetDrawer, 500);
+    }
+  });
+
+  // ---------- Formspree AJAX Submission ----------
+  if (bookingForm) {
+    bookingForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      formError.textContent = '';
+
+      // Basic validation
+      const phone = bookingForm.querySelector('#booking-phone').value.trim();
+      const name = bookingForm.querySelector('#booking-name').value.trim();
+
+      if (!name) {
+        formError.textContent = 'Please enter your name.';
+        return;
+      }
+      if (!phone || phone.length < 7) {
+        formError.textContent = 'Please enter a valid phone number.';
+        return;
+      }
+
+      // Show loading
+      submitBtn.classList.add('loading');
+      submitBtn.disabled = true;
+
+      try {
+        const formData = new FormData(bookingForm);
+        const response = await fetch(bookingForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          // Show success
+          bookingForm.classList.add('hidden');
+          drawerSuccess.classList.add('active');
+        } else {
+          const data = await response.json();
+          if (data.errors) {
+            formError.textContent = data.errors.map(err => err.message).join(', ');
+          } else {
+            formError.textContent = 'Something went wrong. Please try again or call us directly.';
+          }
+          submitBtn.classList.remove('loading');
+          submitBtn.disabled = false;
+        }
+      } catch (err) {
+        formError.textContent = 'Network error. Please try again or call (905) 302-1942.';
+        submitBtn.classList.remove('loading');
+        submitBtn.disabled = false;
+      }
+    });
+  }
+
 })();
