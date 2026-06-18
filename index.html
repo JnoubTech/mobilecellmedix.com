@@ -1912,6 +1912,75 @@
       </div>
     </footer>
 
+    <!-- ========== Floating Book Now Button + Drawer ========== -->
+    <button class="fab-book" id="fab-book" aria-label="Book a repair">
+      <svg class="fab-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span class="fab-label">Book Now</span>
+    </button>
+
+    <!-- Backdrop -->
+    <div class="booking-backdrop" id="booking-backdrop"></div>
+
+    <!-- Booking Drawer -->
+    <div class="booking-drawer" id="booking-drawer" role="dialog" aria-modal="true" aria-label="Book a repair">
+      <div class="drawer-header">
+        <div class="drawer-handle"></div>
+        <h3 class="drawer-title">Book a Repair</h3>
+        <p class="drawer-subtitle">Leave your number — we'll call you back within the hour.</p>
+        <button class="drawer-close" id="drawer-close" aria-label="Close booking form">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Success State -->
+      <div class="drawer-success" id="drawer-success">
+        <div class="success-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+        </div>
+        <h3>We'll be in touch!</h3>
+        <p>Expect a call from us shortly. If it's urgent, call <a href="tel:9053021942">(905) 302‑1942</a> directly.</p>
+      </div>
+
+      <!-- Form -->
+      <form class="booking-form" id="booking-form" action="https://formspree.io/f/mgobjadr" method="POST">
+        <div class="form-group">
+          <label for="booking-name">Your Name</label>
+          <input type="text" id="booking-name" name="name" placeholder="e.g. Alex" autocomplete="given-name" required />
+        </div>
+        <div class="form-group">
+          <label for="booking-phone">Phone Number <span class="required-star">*</span></label>
+          <input type="tel" id="booking-phone" name="phone" placeholder="(905) 555-1234" autocomplete="tel" required />
+        </div>
+        <div class="form-group">
+          <label for="booking-device">Device / Issue <span class="optional-tag">optional</span></label>
+          <input type="text" id="booking-device" name="device" placeholder="e.g. iPhone 15 cracked screen" autocomplete="off" />
+        </div>
+        <input type="hidden" name="_subject" value="New Booking Request from Website" />
+        <div class="form-error" id="form-error"></div>
+        <button type="submit" class="btn-submit" id="btn-submit">
+          <span class="btn-submit-text">Request Callback</span>
+          <span class="btn-submit-loading">
+            <svg class="spinner" viewBox="0 0 24 24" width="20" height="20">
+              <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="31.4 31.4" stroke-linecap="round" />
+            </svg>
+            Sending…
+          </span>
+        </button>
+        <p class="form-disclaimer">We'll only use your number to contact you about this repair.</p>
+      </form>
+    </div>
+
     <script src="script.js"></script>
     <script>
       const themeToggle = document.getElementById("theme-toggle");
