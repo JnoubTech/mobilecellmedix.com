@@ -577,14 +577,18 @@ a {
 }
 
 .book-now-trigger {
+  appearance: none;
+  -webkit-appearance: none;
   background: none;
   border: none;
+  outline: none;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
   color: #dc2327;
   padding: 0;
   cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 .book-now-trigger:hover {
@@ -1523,6 +1527,14 @@ body.light-mode .service-actions {
 body.light-mode .service-tags span {
   background: rgba(0, 0, 0, 0.04);
   color: #1d1d1f;
+}
+
+body.light-mode .book-now-trigger {
+  color: #dc2327;
+}
+
+body.light-mode .book-now-trigger:hover {
+  color: #c41922;
 }
 
 body.light-mode .showcase-media::after {
