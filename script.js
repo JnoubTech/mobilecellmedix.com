@@ -42,8 +42,39 @@
         top: target.getBoundingClientRect().top + window.scrollY - offset,
         behavior: 'smooth'
       });
+
+      // Close mobile menu if open
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      if (mobileMenu && mobileMenu.classList.contains('active')) {
+        mobileMenu.classList.remove('active');
+        menuBtn.classList.remove('active');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
     });
   });
+
+  // ---------- Mobile Menu Toggle ----------
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.contains('active');
+      mobileMenu.classList.toggle('active');
+      mobileMenuBtn.classList.toggle('active');
+      mobileMenuBtn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    });
+
+    // Close menu when scrolling
+    window.addEventListener('scroll', () => {
+      if (mobileMenu.classList.contains('active')) {
+        mobileMenu.classList.remove('active');
+        mobileMenuBtn.classList.remove('active');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      }
+    }, { passive: true });
+  }
 
   // ---------- Scroll Reveal ----------
   const revealEls = document.querySelectorAll('.reveal, .reveal-scale');
