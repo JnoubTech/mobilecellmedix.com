@@ -576,6 +576,21 @@ a {
   transform: translate(2px, -2px);
 }
 
+.book-now-trigger {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #dc2327;
+  padding: 0;
+  cursor: pointer;
+}
+
+.book-now-trigger:hover {
+  color: #ff453a;
+}
+
 /* ---------- Cinematic Showcase ---------- */
 .showcase-block {
   position: relative;
