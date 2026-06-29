@@ -85,6 +85,6 @@
   </main>
 
   <footer class="site-footer"><div class="footer-inner"><img src="../photos/logo_name_wide.png" alt="Mobile Cell Medix" class="footer-logo" /><p>Questions? <a href="mailto:info@mobilecellmedix.com">info@mobilecellmedix.com</a></p><hr class="footer-sep" /><p>Copyright &copy; <span id="footer-year"></span> MobileCellMedix. All rights reserved.</p></div></footer>
-  <script>document.getElementById('footer-year').textContent=new Date().getFullYear();const mb=document.getElementById('mobile-menu-btn'),mm=document.getElementById('mobile-menu');if(mb&&mm){mb.addEventListener('click',()=>{mm.classList.toggle('active');mb.classList.toggle('active');mb.setAttribute('aria-expanded',mm.classList.contains('active'))});}const t=localStorage.getItem('theme')||'light';if(t==='light')document.body.classList.add('light-mode');</script>
+  <script>document.getElementById('footer-year').textContent=new Date().getFullYear();const mb=document.getElementById('mobile-menu-btn'),mm=document.getElementById('mobile-menu');if(mb&&mm){mb.addEventListener('click',()=>{mm.classList.toggle('active');mb.classList.toggle('active');mb.setAttribute('aria-expanded',mm.classList.contains('active'))});}const t=localStorage.getItem('theme')||'light';if(t==='light')document.body.classList.add('light-mode');const tt=document.getElementById('theme-toggle');if(tt)tt.addEventListener('click',()=>{document.body.classList.toggle('light-mode');localStorage.setItem('theme',document.body.classList.contains('light-mode')?'light':'dark')});</script>
 </body>
 </html>

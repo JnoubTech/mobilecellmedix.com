@@ -1240,10 +1240,6 @@ a {
     padding: 8px 16px 16px;
   }
 
-  .theme-toggle {
-    display: none;
-  }
-
   .owner-grid {
     grid-template-columns: 1fr;
     gap: 48px;

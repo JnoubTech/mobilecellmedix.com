@@ -147,7 +147,7 @@
     document.getElementById('footer-year').textContent=new Date().getFullYear();
     const mb=document.getElementById('mobile-menu-btn'),mm=document.getElementById('mobile-menu');
     if(mb&&mm){mb.addEventListener('click',()=>{mm.classList.toggle('active');mb.classList.toggle('active');mb.setAttribute('aria-expanded',mm.classList.contains('active'))});}
-    const t=localStorage.getItem('theme')||'light';if(t==='light')document.body.classList.add('light-mode');
+    const t=localStorage.getItem('theme')||'light';if(t==='light')document.body.classList.add('light-mode');const tt=document.getElementById('theme-toggle');if(tt)tt.addEventListener('click',()=>{document.body.classList.toggle('light-mode');localStorage.setItem('theme',document.body.classList.contains('light-mode')?'light':'dark')});
   </script>
 </body>
 </html>
